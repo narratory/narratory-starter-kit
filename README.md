@@ -10,7 +10,7 @@ Recommended editor:
 
 Getting started:
 * Fill in your Google credentials in google_credentials.json
-* Create and start an interactive chat in the command-line with your bot with `npm run bootstrap`
+* Create and start an interactive chat in the command-line with your bot with `npm run start`
 
 > **Important note**: Do remember to run the `npm run watch` command. It's very easy to forget this, resulting in that your new edits will not be updated! Very frustrating indeed ;-)
 

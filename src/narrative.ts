@@ -1,4 +1,4 @@
-import { BotTurn, UserTurn, ANYTHING } from "narratory"
+import { BotTurn, ANYTHING } from "narratory"
 import * as nlu from "./nlu"
 
 /* 

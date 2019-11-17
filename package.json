@@ -13,6 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^12.12.7",
-    "narratory": "0.0.4"
+    "narratory": "0.0.5"
   }
 }
