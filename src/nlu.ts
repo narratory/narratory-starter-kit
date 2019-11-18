@@ -24,8 +24,8 @@ export const favAssistant: Intent = {
     ],
     examples: [
         "I love siri",
-        "I talk to Alexa at home",
-        "I have a Google home",
+        "I talk to alexa at home",
+        "I have a google home",
         "my computer has cortana",
         "google assistant on my phone"
     ]
