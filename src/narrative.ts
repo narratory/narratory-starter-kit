@@ -32,7 +32,7 @@ const favVirtualAssistant: BotTurn = {
 }
 
 const goodbye: BotTurn = {
-    say: ["Nice. Now. Do you have any questions for me?"]
+    say: ["Alright, now, do you have any questions for me?"]
 }
 
 export default [greeting, metBefore, favVirtualAssistant, goodbye]
