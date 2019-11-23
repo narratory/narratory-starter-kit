@@ -20,7 +20,7 @@ export const virtualAssistant: Entity = {
 
 export const favAssistant: Intent = {
     entities: {
-        myVirtualAssistant: virtualAssistant
+        myFavAssistant: virtualAssistant
     },
     examples: [
         "I love siri",
