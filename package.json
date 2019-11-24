@@ -3,16 +3,31 @@
   "version": "0.0.1",
   "description": "A start-kit to start building chat and voice interactions using the Narratory service",
   "main": "out/index.js",
+  "watch": {
+    "updateEntities": {
+      "patterns": [
+        "src"
+      ],
+      "ignore": "src/user.ts",
+      "quiet": true,
+      "extensions": "ts"
+    }
+  },
   "scripts": {
     "start": "node out/functions/bootstrap.js",
     "update": "node out/functions/update.js",
     "chat": "node out/functions/chat.js",
-    "watch": "tsc --watch"
+    "updateEntities": "node node_modules/narratory/out/scanner.js",
+    "watch": "concurrently \"npm-watch\" \"tsc --watch\""
   },
   "author": "luddilo",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^12.12.7",
-    "narratory": "0.0.17"
+    "narratory": "0.0.18"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "npm-watch": "^0.6.0"
   }
 }

@@ -9,7 +9,7 @@ export const favNumber : Intent = {
 }
 
 export const virtualAssistant: Entity = {
-    name: "virtualFriend",
+    name: "virtualAssistant",
     enums: [
         { alts: ["Alexa", "Amazon Alexa", "The amazon one"] },
         { alts: ["Google home", "Google assistant", "assistant from google"] },

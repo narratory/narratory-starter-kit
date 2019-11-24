@@ -8,9 +8,10 @@ async function bootstrap() {
         console.log("===\nStarting chat session with the new agent\n")
     
         // Start a chat with our agent, in command-line
-        chat(agent, getStartTurnIndex(process.argv, agent))
+        await chat(agent, getStartTurnIndex(process.argv, agent))
     } else {
         console.log("Aborting since creation failed")
+        process.exit()
     }
 }
 
