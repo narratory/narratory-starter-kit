@@ -14,8 +14,8 @@
     }
   },
   "scripts": {
-    "start": "node out/functions/bootstrap.js",
-    "update": "node out/functions/update.js",
+    "start": "tsc && node out/functions/bootstrap.js",
+    "update": "tsc && node out/functions/update.js",
     "chat": "node out/functions/chat.js",
     "updateEntities": "node node_modules/narratory/out/scanner.js",
     "watch": "concurrently \"npm-watch\" \"tsc --watch\""
