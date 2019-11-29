@@ -1,9 +1,10 @@
 # Starting kit for building chatbots and voice-apps with Narratory
 
 Dependencies:
-* Newer versions of Node.js & npm (Node 11 recommended)
-* Typescript
-* A Dialogflow agent created (create one for free at [dialogflow.com](https://dialogflow.com))
+* Git - for cloning this library ([download here](https://git-scm.com/downloads))
+* Node & Npm - to run Narratory create and chat commands. Version v11+ recommended ([download here](https://nodejs.org/en/download/))
+* Typescript - since this is the language Narratory scripts are built with ([download here](https://www.typescriptlang.org/))
+* A Dialogflow agent created - since Dialogflow is used to run Narratory agents (create one for free at [dialogflow.com](https://dialogflow.com))
 
 Recommended editor: 
 * Virtual Studio Code
