@@ -1,15 +1,18 @@
 # Starting kit for building chatbots and voice-apps with Narratory
 
-Dependencies:
+Documentation: [narratory.io](https://narratory.io)
+
+## Dependencies:
 * Git - for cloning this library ([download here](https://git-scm.com/downloads)).
 * Node & Npm - to run Narratory create and chat commands. Version v11+ recommended ([download here](https://nodejs.org/en/download/)).
 * Typescript - to build Narratory scripts ([download here](https://www.typescriptlang.org/)).
 * A Dialogflow agent - since Dialogflow is used to run Narratory agents (create one for free at [dialogflow.com](https://dialogflow.com)).
 
-Recommended editor: 
+Recommended editor:
 * Virtual Studio Code - since it has excellent built-in Typescript support ([download here](https://code.visualstudio.com/)).
 
-Getting started:
+## Getting started
+
 * Open your terminal
 * Clone this repository with `git clone https://github.com/narratory/narratory-starter-kit YOUR_FOLDER_NAME`.
 * Enter the new library with `cd YOUR_FOLDER_NAME`
@@ -23,7 +26,10 @@ Getting started:
   * Open the file and fill in the credentials in `google_credentials.json` in the root of this directory.
 * Create and start an interactive chat in the command-line with your bot with `npm run start`.
 
-Start creating (please head over to the Narratory docs @ [narratory.io] to read more!):
+## Start creating 
+
+Please head over to the Narratory docs at [narratory.io](https://narratory.io) to read more.
+
 * Open your directory with your editor and observe the following files in the `/src` folder:
   * agent.ts - this is your agent defined with a name, a language, a narrative, a questions bank, an array of bridges and your credentials
   * narrative.ts - this is where the main narrative (a sequence of BotTurns) in this starter-kit is defined. 
@@ -33,7 +39,8 @@ Start creating (please head over to the Narratory docs @ [narratory.io] to read 
 
 > Try to do some changes in narrative.ts and run `npm run start` again to notice the difference!
 
-All commands:
+## All commands
+
 * `npm run start` to start or update the bot and then launch an interactive chat in the terminal.
 * `npm run update` to update the bot with new content.
 * `npm run chat` to start the interactive chat in the command-line window.
