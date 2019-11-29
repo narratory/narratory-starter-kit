@@ -1,6 +1,6 @@
 {
   "name": "narratory-starter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A start-kit to start building chat and voice interactions using the Narratory service",
   "main": "out/index.js",
   "watch": {
@@ -24,7 +24,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^12.12.7",
-    "narratory": "0.0.19"
+    "narratory": "0.0.23"
   },
   "devDependencies": {
     "concurrently": "^5.0.0",

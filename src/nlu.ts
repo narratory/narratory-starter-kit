@@ -1,6 +1,6 @@
 import { Entity, Intent } from "narratory"
 
-export const favNumber : Intent = {
+export const favNumber: Intent = {
     examples: [
         "what is your favorite number",
         "what number do you like best",
@@ -11,10 +11,10 @@ export const favNumber : Intent = {
 export const virtualAssistant: Entity = {
     name: "virtualAssistant",
     enums: [
-        { alts: ["Alexa", "Amazon Alexa", "The amazon one"] },
-        { alts: ["Google home", "Google assistant", "assistant from google"] },
-        { alts: ["Siri"] },
-        { alts: ["Cortana"]}
+        { name: "alexa", alts: ["alexa", "Amazon Alexa", "The amazon one"] },
+        { name: "google home", alts: ["Google home", "Google assistant", "assistant from google"] },
+        { name: "siri", alts: ["apple assistant"] },
+        { name: "Cortana", alts: ["microsoft assistant"] }
     ]
 }
 
@@ -27,6 +27,7 @@ export const favAssistant: Intent = {
         "I talk to alexa at home",
         "I have a google home",
         "my computer has cortana",
+        "I like _myFavAssistant",
         "google assistant on my phone"
     ]
 }
