@@ -39,6 +39,12 @@ Please head over to the Narratory docs at [narratory.io](https://narratory.io) t
 
 > Try to do some changes in narrative.ts and run `npm run start` again to notice the difference!
 
+## Testing your app
+
+For your convenience, it is possible to test your Narratory app directly in your terminal with the command `npm run chat` (or `npm run start` if you also want to update the agent). 
+
+You can also test it right away in the Google Assistant (Google Actions) test console. In your browser, follow the link "See how it works in Google Assistant" in the right column in the Dialogflow console to open it up, or go to Integrations in the left menu and enter it from there. The latter is recommended if you are doing continuous changes since you can check the option to update the Google Action automatically once your Dialogflow agent updates.
+
 ## All commands
 
 * `npm run start` to start or update the bot and then launch an interactive chat in the terminal.
