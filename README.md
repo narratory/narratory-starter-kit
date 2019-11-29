@@ -1,25 +1,27 @@
 # Starting kit for building chatbots and voice-apps with Narratory
 
 Dependencies:
-* Git - for cloning this library ([download here](https://git-scm.com/downloads))
-* Node & Npm - to run Narratory create and chat commands. Version v11+ recommended ([download here](https://nodejs.org/en/download/))
-* Typescript - to build Narratory scripts ([download here](https://www.typescriptlang.org/))
-* A Dialogflow agent - since Dialogflow is used to run Narratory agents (create one for free at [dialogflow.com](https://dialogflow.com))
+* Git - for cloning this library ([download here](https://git-scm.com/downloads)).
+* Node & Npm - to run Narratory create and chat commands. Version v11+ recommended ([download here](https://nodejs.org/en/download/)).
+* Typescript - to build Narratory scripts ([download here](https://www.typescriptlang.org/)).
+* A Dialogflow agent - since Dialogflow is used to run Narratory agents (create one for free at [dialogflow.com](https://dialogflow.com)).
 
 Recommended editor: 
-* Virtual Studio Code - since it has excellent built-in Typescript support
+* Virtual Studio Code - since it has excellent built-in Typescript support ([download here](https://code.visualstudio.com/)).
 
 Getting started:
-* Clone this repository with `git clone https://github.com/narratory/narratory-starter-kit YOUR_FOLDER_NAME`
-* Give Narratory access to your new Dialogflow agent
-  * Go to settings in the Dialogflow console for your agent
-  * Press on the service account email, taking you to Google cloud console
-  * If this is your first time in the Google cloud console, accept the terms
-  * Once inside, click "Create service account" and give it a name, for example Narratory.
-  * In the next step, add the role "Dialogflow API Admin" to to the service account
-  * Finally, press "Create a key" and select the JSON alternative and download it to your computer.
-  * Open the file and fill in the credentials in google_credentials.json in the root of this directory.
-* Create and start an interactive chat in the command-line with your bot with `npm run start`
+* Open your terminal
+* Clone this repository with `git clone https://github.com/narratory/narratory-starter-kit YOUR_FOLDER_NAME`.
+* Enter the new library with `cd YOUR_FOLDER_NAME`
+* Give Narratory access to your new Dialogflow agent by following these steps:
+  * Open your browser and go to settings in the _Dialogflow console_ for your agent.
+  * Press on the _service account email_, taking you to _Google cloud console_ (If this is your first time in the Google cloud console, accept the terms).
+  * Once inside, click _Create service account_ in the top 
+  * Give the service account a name, for example Narratory.
+  * In the next step, add the role _Dialogflow API Admin_ to to the service account.
+  * In the final step, press _Create a key_ and select the _JSON_ alternative and download it to your computer.
+  * Open the file and fill in the credentials in `google_credentials.json` in the root of this directory.
+* Create and start an interactive chat in the command-line with your bot with `npm run start`.
 
 All commands:
 * `npm run start` to start or update the bot and then launch an interactive chat in the terminal.
