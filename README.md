@@ -3,11 +3,11 @@
 Dependencies:
 * Git - for cloning this library ([download here](https://git-scm.com/downloads))
 * Node & Npm - to run Narratory create and chat commands. Version v11+ recommended ([download here](https://nodejs.org/en/download/))
-* Typescript - since this is the language Narratory scripts are built with ([download here](https://www.typescriptlang.org/))
-* A Dialogflow agent created - since Dialogflow is used to run Narratory agents (create one for free at [dialogflow.com](https://dialogflow.com))
+* Typescript - to build Narratory scripts ([download here](https://www.typescriptlang.org/))
+* A Dialogflow agent - since Dialogflow is used to run Narratory agents (create one for free at [dialogflow.com](https://dialogflow.com))
 
 Recommended editor: 
-* Virtual Studio Code
+* Virtual Studio Code - since it has excellent built-in Typescript support
 
 Getting started:
 * Clone this repository with `git clone https://github.com/narratory/narratory-starter-kit YOUR_FOLDER_NAME`
