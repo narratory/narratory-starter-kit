@@ -15,7 +15,7 @@ const metBefore: BotTurn = {
             intent: ["Yes", "Indeed", "Absolutely", "we have", "I think so"], followup: {
                 say: "Oh really, do you remember when?",
                 answers: [
-                    { intent: ANYTHING, followup: "not really" }
+                    { intent: ANYTHING, followup: ["Interesting", "I see"] }
                 ]
             }
         },

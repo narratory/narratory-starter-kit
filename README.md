@@ -16,6 +16,7 @@ Recommended editor:
 * Open your terminal
 * Clone this repository with `git clone https://github.com/narratory/narratory-starter-kit YOUR_FOLDER_NAME`.
 * Enter the new library with `cd YOUR_FOLDER_NAME`
+* Install the dependencies with `npm install`
 * Give Narratory access to your new Dialogflow agent by following these steps:
   * Open your browser and go to settings in the _Dialogflow console_ for your agent.
   * Press on the _service account email_, taking you to _Google cloud console_ (If this is your first time in the Google cloud console, accept the terms).
