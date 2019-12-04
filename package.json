@@ -24,7 +24,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^12.12.7",
-    "narratory": "0.0.23"
+    "narratory": "0.0.29"
   },
   "devDependencies": {
     "concurrently": "^5.0.0",

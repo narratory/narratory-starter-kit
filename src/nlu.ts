@@ -13,7 +13,7 @@ export const virtualAssistant: Entity = {
     enums: [
         { name: "alexa", alts: ["alexa", "Amazon Alexa", "The amazon one"] },
         { name: "google home", alts: ["Google home", "Google assistant", "assistant from google"] },
-        { name: "siri", alts: ["apple assistant"] },
+        { name: "siri" },
         { name: "Cortana", alts: ["microsoft assistant"] }
     ]
 }

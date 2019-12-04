@@ -8,7 +8,8 @@ const agent: Agent = {
     narrative, // See the file narrative.ts
     questions, // See the file questions.ts
     bridges: ["So", "Where were we", "Now"],
-    credentials: require("../google_credentials.json")
+    narratoryKey: "starterKit",
+    googleCredentials: require("../google_credentials.json")
 }
 
 export default agent

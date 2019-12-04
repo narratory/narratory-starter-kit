@@ -34,7 +34,7 @@ const favVirtualAssistant: BotTurn = {
 
 const builtAssistantApp: BotTurn = {
     cond: { myFavAssistant: true },
-    say: `Have you tried building an app for ${user.myFavAssistant}?`,
+    say: `Have you tried building an app for _myFavAssistant?`,
     answers: [
         { intent: ["yes", "I have", "yep", "of course", "absolutely"], followup: "Oh, that is fantastic. I'm glad you're about to try building one with me now!" },
         { intent: ["no", "I have not", "nope", "not yet"], followup: "I see. Well, happy to have you here!" }
@@ -42,7 +42,7 @@ const builtAssistantApp: BotTurn = {
 }
 
 const goodbye: BotTurn = {
-    say: ["Now, do you have any questions for me?"]
+    say: ["That's it for now, it was a pleasure to talk to you!"]
 }
 
 export default [greeting, metBefore, favVirtualAssistant, builtAssistantApp, goodbye]
