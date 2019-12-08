@@ -32,7 +32,7 @@ Recommended editor:
 Please head over to the Narratory docs at [narratory.io](https://narratory.io) to read more.
 
 * Open your directory with your editor and observe the following files in the `/src` folder:
-  * agent.ts - this is your agent defined with a name, a language, a narrative, a questions bank, an array of bridges and your credentials
+  * agent.ts - this is your agent defined with a name, a language, a narrative, a questions bank, an array of bridges, your narratory key and Google credentials for your Dialogflow project
   * narrative.ts - this is where the main narrative (a sequence of BotTurns) in this starter-kit is defined. 
   * questions.ts - this is where the question bank (various UserTurns) are defined.
   * nlu.ts - this is where your custom entities and intents are defined.
