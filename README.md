@@ -25,6 +25,9 @@ Recommended editor:
   * In the next step, add the role _Dialogflow API Admin_ to to the service account.
   * In the final step, press _Create a key_ and select the _JSON_ alternative and download it to your computer.
   * Open the file and fill in the credentials in `google_credentials.json` in the root of this directory.
+* Add the Narratory fulfillment url to the fulfillment page in the Dialogflow console. 
+  * Paste in the url: `https://europe-west1-narratory-1.cloudfunctions.net/fulfill`
+  * As a **header**, add "Authorization" as key and "Bearer YOUR-TOKEN" as value. If your token is "asdf", you would put in "Bearer asdf" as value.
 * Create and start an interactive chat in the command-line with your bot with `npm run start`.
 
 ## Start creating 
