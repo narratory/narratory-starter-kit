@@ -11,13 +11,10 @@ const greeting = ["Hi there", "Greetings", "hello"]
 const metBefore: BotTurn = {
     say: "have we met before?",
     answers: [
-        {
-            intent: ["Yes", "Indeed", "Absolutely", "we have", "I think so"], followup: {
-                say: "Oh really, do you remember when?",
-                answers: [
-                    { intent: ANYTHING, followup: ["Interesting", "I see"] }
-                ]
-            }
+        { intent: ["Yes", "Indeed", "Absolutely", "we have", "I think so"], followup: {
+            say: "Oh really, do you remember when?", answers: [
+                { intent: ANYTHING, followup: ["Interesting", "I see"] }
+            ]}
         },
         { intent: ["No", "I don't think so", "I have no idea", "I don't know"], followup: "Well, it is a pleasure to talk to you!" }
     ]

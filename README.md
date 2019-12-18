@@ -1,6 +1,7 @@
 # Starting kit for building chatbots and voice-apps with Narratory
 
 Documentation: [narratory.io](https://narratory.io)
+Contact: [info _at narratory.io](mailto:info@narratory.io)
 
 ## Dependencies:
 * Git - for cloning this library ([download here](https://git-scm.com/downloads)).
@@ -13,18 +14,25 @@ Recommended editor:
 
 ## Getting started
 
-* Open your terminal
+* Sign up to Narratory at [https://app.narratory.io] and take note of the **Narratory key** found in the dashboard.
+* Open your terminal and navigate to a folder where you want to put your first app
 * Clone this repository with `git clone https://github.com/narratory/narratory-starter-kit YOUR_FOLDER_NAME`.
-* Enter the new library with `cd YOUR_FOLDER_NAME`
-* Install the dependencies with `npm install`
+* Enter the new directory with `cd YOUR_FOLDER_NAME` and run `npm install` to install all dependencies
+* Open the new directory in your code editor and enter your Narratory key in the `agent.ts` file
 * Give Narratory access to your new Dialogflow agent by following these steps:
   * Open your browser and go to settings in the _Dialogflow console_ for your agent.
   * Press on the _service account email_, taking you to _Google cloud console_ (If this is your first time in the Google cloud console, accept the terms).
+  ![img](docs/img/google_credentials_step1.png)
   * Once inside, click _Create service account_ in the top 
   * Give the service account a name, for example Narratory.
   * In the next step, add the role _Dialogflow API Admin_ to to the service account.
   * In the final step, press _Create a key_ and select the _JSON_ alternative and download it to your computer.
   * Open the file and fill in the credentials in `google_credentials.json` in the root of this directory.
+* Add the Narratory fulfillment url to the fulfillment page in the Dialogflow console. 
+  * Toggle on the **Webhook switch**
+  * As **URL**, paste in: `https://europe-west1-narratory-1.cloudfunctions.net/fulfill` 
+  * As a **header**, add "Authorization" as key and your **Narratory key** as value.
+  ![img](docs/img/enabling_fulfillment.png)
 * Create and start an interactive chat in the command-line with your bot with `npm run start`.
 
 ## Start creating 
