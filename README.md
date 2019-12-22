@@ -30,7 +30,7 @@ Recommended editor:
   * Open the file and fill in the credentials in `google_credentials.json` in the root of this directory.
 * Add the Narratory fulfillment url to the fulfillment page in the Dialogflow console. 
   * Toggle on the **Webhook switch**
-  * As **URL**, paste in: `https://europe-west1-narratory-1.cloudfunctions.net/fulfill` 
+  * As **URL**, paste in: `https://europe-west1-narratory-1.cloudfunctions.net/fulfill_v2` 
   * As a **header**, add "Authorization" as key and your **Narratory key** as value.
   ![img](docs/img/enabling_fulfillment.png)
 * Create and start an interactive chat in the command-line with your bot with `npm run start`.
@@ -42,7 +42,7 @@ Please head over to the Narratory docs at [narratory.io](https://narratory.io) t
 * Open your directory with your editor and observe the following files in the `/src` folder:
   * agent.ts - this is your agent defined with a name, a language, a narrative, a questions bank, an array of bridges, your narratory key and Google credentials for your Dialogflow project
   * narrative.ts - this is where the main narrative (a sequence of BotTurns) in this starter-kit is defined. 
-  * questions.ts - this is where the question bank (various UserTurns) are defined.
+  * userInitiatives.ts - this is where your user initiatives (various UserTurns that are always active) are defined.
   * nlu.ts - this is where your custom entities and intents are defined.
   * user.ts - this is an automatically generated file (by the `npm run watch` command) that gives you autocomplete for all entity names
 
